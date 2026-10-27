@@ -2,6 +2,13 @@
 
 HTML, CSS, JavaScript로 만든 독립형 웹페이지입니다. `index.html` 파일을 크롬, 사파리 또는 Edge에서 열면 됩니다.
 
+## 페이지 안내
+
+- [`index.html`](./index.html): 기존 UI 24 데모와 HTML / CSS / JavaScript 소스 보기
+- [`vanilla-js.html`](./vanilla-js.html): 24가지 실습을 Vanilla JavaScript 이벤트와 DOM API로 구현한 추가 페이지. 소스 패널에 실제 실행된 `init(stage)` 함수 원문을 표시합니다.
+
+> 두 페이지 모두 HTML/CSS로 형태를 그리고, 새 페이지는 사용자 조작·상태 변경·애니메이션 트리거를 JavaScript로 처리합니다.
+
 ## 포함된 기능
 
 - 필수 UI 패턴 24가지와 직접 조작 가능한 데모
@@ -17,11 +24,10 @@ HTML, CSS, JavaScript로 만든 독립형 웹페이지입니다. `index.html` �
 
 ## GitHub Pages 배포
 
-1. 새 공개(Public) GitHub 저장소를 만듭니다.
-2. `index.html`을 저장소 루트에 업로드합니다.
-3. Settings → Pages → Build and deployment에서 Deploy from a branch를 선택합니다.
-4. Branch를 `main` / `(root)`로 설정하고 Save를 누릅니다.
-5. GitHub Pages에 공개 주소가 표시되면 해당 주소를 공유합니다.
+기존 `woochoi/my-etc` 저장소에서 **Settings → Pages → main / (root)**를 활성화하면 이 폴더의 두 페이지를 제공할 수 있습니다.
+
+- 기존 UI: `https://woochoi.github.io/my-etc/vibe-ui-24/`
+- 순수 JS 실습: `https://woochoi.github.io/my-etc/vibe-ui-24/vanilla-js.html`
 
 ## 이용 및 개인정보
 
